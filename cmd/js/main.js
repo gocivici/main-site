@@ -54,7 +54,7 @@ var App = {
        blog: function() {
         if(ga != undefined) ga('send', 'event', 'blog');
         this.echo("Loading the blog... \n")
-        setTimeout(function(){ document.location.href = 'http://gocivici.com/blog'; }, 2500);
+        setTimeout(function(){ document.location.href = 'https://gocivici.com/blog'; }, 2500);
     },
        publications: function() {
         if(ga != undefined) ga('send', 'event', 'publications');
